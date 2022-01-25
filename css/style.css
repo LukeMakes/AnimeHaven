@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  background-color: #27292D;
+  scroll-behavior: smooth;
+}
