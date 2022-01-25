@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Roboto";
-  src: local("../fonts/Roboto-Regular.ttf");
+  src: local("../font/Roboto-Regular.ttf");
 }
 
 * {
@@ -15,4 +15,10 @@ body {
   line-height: 1.4;
   background-color: #27292D;
   scroll-behavior: smooth;
+  color: #fff;
+}
+
+/* Header */
+h1>span{
+  color: #ff00ff;
 }
